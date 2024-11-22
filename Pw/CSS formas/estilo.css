@@ -1,0 +1,49 @@
+body{
+	background-color: azure;
+}
+
+.quadro{
+	background-color: ivory;
+	height: 400px;
+	width: 400px;
+}
+
+.bola1{
+	background-color: red;
+	height:150px;
+	width: 150px;
+	border-radius: 100%;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.bola2{
+	background-color: blue;
+	height: 150px;
+	width: 150px;
+	border-radius: 100%;
+	margin-top: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.centro{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.quadro{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+p{
+	font-size: 18pt;
+	color: white;
+	cursor: pointer;
+}

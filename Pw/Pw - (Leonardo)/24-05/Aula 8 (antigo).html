@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Elementos da Estrutura</title>
+            <style>
+             * { margin : 0; padding : 0; }
+                 #container {
+                    margin: 0px auto 0px auto;
+                    width: 960px;
+                    background: #9e2c8b;
+                }
+                 #cabecalho {
+                    margin: 0px auto 0px auto;
+                    width: 960px;
+                    height: 82px;
+                    position: relative;
+                    background: #c0c0c0;
+                }
+                #corpo {
+                    margin: 1px;
+                    padding-top: 10px;
+                    padding-bottom: 20px;
+                    min-height: 500px;
+                }
+                #menu {
+                    margin: 0px auto 0px auto;
+                    width: 160px;
+                    height: 500px;
+                    float: left;
+                    background: #c0c0ff;
+                }
+                #artigo {
+                    margin: 0px auto 0px auto;
+                    width: 618px;
+                    height: 500px;
+                    float: left;
+                    background: #c0c088;
+                    margin-left: 10px;
+                }
+                .cabecalho_artigo{
+                    margin: 0px auto 0px;
+                    width: 598px;
+                    height: 50px;
+                    float: left;
+                    background: #c0c0c0;
+                    margin: 10px;
+                }
+                .artigo{
+                    margin: 0px auto 0px auto;
+                    width: 598px;
+                    height: 330px;
+                    float: left;
+                    background: #c0c0c0;
+                    margin: 10px;
+                }
+                .rodape_artigo{
+                    margin: 0px auto 0px auto;
+                    width: 598px;
+                    height: 50px;
+                    float: left;
+                    background: #c0c0c0;
+                    margin: 10px;
+                }
+                #propaganda {
+                    margin: 0px auto 0px auto;
+                    width: 160px;
+                    height: 500px;
+                    float: left;
+                    background: #c0c000;
+                    margin-left: 10px;
+                }
+                #rodape {
+                    margin: 0px auto;
+                    padding-bottom: 20px;
+                    width: 960px;
+                    position: relative;
+                    background: #c0c0c0;
+                }
+            </style>
+    </head>
+    <body>
+        <div id="container">
+            <header id="cabecalho">Header</header>
+            <div id="corpo">
+                <nav id="menu">nav</nav>
+                <section id="artigo">
+                    <header class="cabecalho_artigo">
+                        header
+                    </header>
+                    <article class="artigo">
+                        article
+                    </article>
+                    <footer class="rodape_artigo">
+                        footer
+                    </footer>
+                </section>
+                <aside id="propaganda">aside</aside>
+            </div>
+                <footer id="rodape">footer</footer>
+        </div>
+    </body>
+</html>

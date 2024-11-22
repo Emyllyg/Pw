@@ -1,0 +1,25 @@
+body{
+	background-color: LightCyan;
+}
+
+h1{
+	background-color: PowderBlue;
+	color:  DarkSlateGray;
+	padding-left: 10px;
+	text-align: center;
+	letter-spacing: 30px;
+	border: 2px solid  DarkSlateGray;
+	font-family:Broadway;
+}
+
+hr{
+	height: 60px; background: linear-gradient(90deg,  DarkSlateGray ,Turquoise , DarkSlateGray)
+}
+
+p{
+	font-family: Harrington;
+	color: DarkSlateGray;
+	font-size: 20pt;
+	background-color:PowderBlue;
+	padding-left: 25px
+}
